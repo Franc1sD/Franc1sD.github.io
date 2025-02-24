@@ -1,0 +1,23 @@
+/* Author: Francis Deng
+   Date: 02/23/2025 */
+
+
+.container {
+    /* Add your container styles here */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    /* Add heading styles */
+    color: #333;
+    font-size: 2.5rem;
+}
+
+p {
+    /* Add paragraph styles */
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
