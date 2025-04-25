@@ -12,11 +12,11 @@ async function loadAllComponents() {
         document.head.insertAdjacentHTML('beforeend', headHtml);
         const pageTitles = {
             '/': 'Gallery Home',
-            '/pages/artwork1.html': '1',
-            '/pages/artwork2.html': '2',
-            '/pages/artwork3.html': '3',
-            '/pages/artwork4.html': '4',
-            '/pages/artwork5.html': '5',
+            '/pages/artwork1.html': 'Impression, Sunrise',
+            '/pages/artwork2.html': 'The Houses of Parliament, Sunset',
+            '/pages/artwork3.html': 'Woman at Her Toilette',
+            '/pages/artwork4.html': 'Snow at Louveciennes',
+            '/pages/artwork5.html': 'Boulevard Montmartre at Night',
         };
         const path = window.location.pathname;
         document.title = `Franc1sD | ${pageTitles[path] || 'Default Title'}`;

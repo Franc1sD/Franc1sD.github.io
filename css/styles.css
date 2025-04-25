@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;;
+}
+
 /* Artwork Image Styles */  
 .artwork-image {
     min-width: 100%;
     max-width: 100%;
     height: auto;
 }
+
