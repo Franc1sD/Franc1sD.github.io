@@ -46,7 +46,7 @@
 
 .dropdown-content {
     background-color: #3f3f3f;
-
+    display: none;
     position: absolute;
     min-width: 280px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -133,6 +133,7 @@
 @media (max-width: 768px) {
     .dropdown-content {
         background-color: #3f3f3f;
+        display: none;
         min-width: 280px;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
         z-index: 1;
