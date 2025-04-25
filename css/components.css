@@ -1,0 +1,136 @@
+/* Nav Bar Styling */
+.site-header {
+    width: 100%;
+    background-color: #3f3f3f;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 0 0 auto;
+    padding: 0 20px;
+    font-size: larger;
+    height: 70px;
+}
+
+/* Home Button */
+.home-btn {
+    color: #f3f3f3;
+    background-color: #3f3f3f;
+    text-decoration: none;  
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.home-btn:hover {
+    color: #f3f3f3;
+    background-color: #555;
+}
+
+
+/* Dropdown Styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Button */   
+.drop-btn {
+    color: #f3f3f3;
+    background-color: #3f3f3f;
+    text-decoration: none;
+    padding: 10px 32px; 
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.drop-btn:hover {
+    color: #f3f3f3;
+    background-color: #555;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    background-color: #3f3f3f;
+    display: none;
+    position: absolute;
+    min-width: 410px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px 0;
+    right: -10%;
+    font-size: medium;
+}
+
+.dropdown-content a {
+    color: #f3f3f3;
+    text-decoration: none;  
+    padding: 12px 16px;
+    display: block;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #444444;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    color: #f3f3f3;
+    background-color: #484848;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+.site-footer {
+    background-color: #f3f3f3f3;
+    color: #3f3f3f;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0 0 auto 0;
+}
+
+.footer-content {
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 15px 0;
+    font-size: medium;
+}
+
+.footer-content a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-content a:hover {
+    transform: translateY(-1px);
+}
+
+.footer-content img {
+    height: 28px;
+    vertical-align: middle;
+}
