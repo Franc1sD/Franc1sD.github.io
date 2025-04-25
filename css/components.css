@@ -22,7 +22,7 @@
     color: #f3f3f3;
     background-color: transparent;
     text-decoration: none;
-    padding: 10px 15px; 
+    padding: 5px 10px; 
     transition: background-color 0.3s ease;
     border: none;
     border-radius: 6px;
@@ -33,6 +33,7 @@
 .home-btn:hover,
 .drop-btn:hover {
     color: #f3f3f3;
+    background-color: #484848;
 }
 
 
@@ -45,7 +46,7 @@
 
 .dropdown-content {
     background-color: #3f3f3f;
-    display: none;
+
     position: absolute;
     min-width: 280px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -105,7 +106,7 @@
 
 .footer-content p {
     margin: 15px 0;
-    font-size: medium;
+    font-size: 1rem;
 }
 
 .footer-content a {
@@ -121,4 +122,24 @@
 .footer-content img {
     height: 28px;
     vertical-align: middle;
+}
+
+
+
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .dropdown-content {
+        background-color: #3f3f3f;
+        min-width: 280px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 6px;
+        overflow: hidden;
+        padding: 5px 0;
+        left: -6px;
+        font-size: 1rem;
+    }
 }
