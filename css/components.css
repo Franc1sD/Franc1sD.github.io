@@ -8,6 +8,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 15px 15px;
+    font-family: serif, 'Times New Roman', sans-serif;
 }
 
 .row {
@@ -92,6 +93,7 @@
 .site-footer {
     background-color: #f3f3f3f3;
     color: #3f3f3f;
+    font-family: serif, 'Times New Roman', sans-serif;
     padding: 15px 0;
     width: 100%;
     margin: 0 0 auto 0;
