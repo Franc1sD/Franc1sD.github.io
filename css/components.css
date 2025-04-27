@@ -1,14 +1,13 @@
 /* Nav Bar Styling */
 .site-header {
-    width: 100%;
+    padding: 10px 10px;
     background-color: #3f3f3f;
+    font-family: serif, 'Times New Roman', sans-serif;
 }
 
 .navbar-container {
-    margin: 0 auto;
-    padding: 15px 15px;
+    padding: 10px 10px;
     align-items: center;
-    font-family: serif, 'Times New Roman', sans-serif;
 }
 
 .navbar-layout {
@@ -37,6 +36,7 @@
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: 500;
+    font-family: inherit;
 }
 .home-btn:hover,
 .drop-btn:hover {
@@ -101,9 +101,7 @@
     background-color: #f3f3f3f3;
     color: #3f3f3f;
     font-family: serif, 'Times New Roman', sans-serif;
-    padding: 15px 0;
-    width: 100%;
-    margin: 0 0 auto 0;
+    padding: 15px 15px;
 }
 
 .footer-content {
