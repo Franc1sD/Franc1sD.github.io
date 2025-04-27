@@ -111,6 +111,9 @@ function setupAjaxNavigation() {
     });
 }
 
+
+
+// Asynchronous function to load content via AJAX
 async function loadContent(url) {
     const contentContainer = document.querySelector('.main-content');
     if (!contentContainer) return;

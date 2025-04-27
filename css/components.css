@@ -7,13 +7,12 @@
 
 .navbar-container {
     padding: 10px 10px;
-    align-items: center;
 }
 
 .navbar-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     padding: 0;
     grid-template-areas: 
         "a b c d e f";
@@ -22,6 +21,10 @@
 .navbar-item:nth-child(2) { grid-area: e; }
 .navbar-item:nth-child(3) { grid-area: f; }
 
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
 
 /* Buttons */
 .home-btn,
