@@ -66,11 +66,32 @@ html {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.row-md-12 {
-    max-width: 100%;
-    display: flex;
-    flex-direction: wrap;
+.grid-layout {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas: 
+        "a a b b b"
+        "a a b b b"
+        "c c c d d"
+        "c c c d d"
+        "c c c e e"
+        "f f g g g"
+        "f f g g g"
+        "h h h i i"
+        "h h h i i";
+    gap: 1rem;
+    padding: 4rem;
 }
+.grid-item:nth-child(1) { grid-area: a; }
+.grid-item:nth-child(2) { grid-area: b; }
+.grid-item:nth-child(3) { grid-area: c; }
+.grid-item:nth-child(4) { grid-area: d; }
+.grid-item:nth-child(5) { grid-area: e; }
+.grid-item:nth-child(6) { grid-area: f; }
+.grid-item:nth-child(7) { grid-area: g; }
+.grid-item:nth-child(8) { grid-area: h; }
+.grid-item:nth-child(9) { grid-area: i; }
 
 
 
